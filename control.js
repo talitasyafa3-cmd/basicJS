@@ -31,14 +31,44 @@
   //console.log("berat kayunya " + beratkayu + " kg, ringan");
 //} 
 
-let beratkayu = 320;
+//let beratkayu = 320;
 
-console.log("==berat kayu==");
+//console.log("==berat kayu==");
 
-if (beratkayu > 500) {
-  console.log("berat kayunya " + beratkayu + " kg, berat");
-} else if (beratkayu < 400) {
-  console.log("berat kayunya " + beratkayu + " kg, ringan");
-} else if (beratkayu > 400) {
-  console.log("berat kayunya " + beratkayu + " kg, overweight");
+//if (beratkayu > 500) {
+  //console.log("berat kayunya " + beratkayu + " kg, overweight");
+//} else if (beratkayu > 400) {
+  //console.log("berat kayunya " + beratkayu + " kg, berat");
+//} else if (beratkayu < 400) {
+  //console.log("berat kayunya " + beratkayu + " kg, ringan");
+//} 
+
+//} else if (beratkayu > 400) {
+  //console.log("berat kayunya " + beratkayu + " kg, overweight");
+//} 
+
+//let kayu = 600;
+//if (kayu > 500) {
+  //console.log("berat kayunya " + kayu + " kg");
+  //console.log("kayu overweight");
+//} else if (kayu < 400) {
+  //console.log("berat kayunya " + kayu + " kg");
+  //console.log("kayu berat");
+//} else {
+  //console.log("berat kayunya " + kayu + " kg");
+  //console.log("kayu ringan");
+//}
+
+let makanan = "telur asin"; 
+
+console.log("nama menu: " + makanan);
+
+if (makanan === "ayam katsu") {
+  console.log("makan");
+} else if (makanan === "telur asin") {
+  console.log("cicip");
+} else {
+  console.log("tidak makan");
 } 
+
+
