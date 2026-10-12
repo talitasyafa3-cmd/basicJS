@@ -59,16 +59,62 @@
   //console.log("kayu ringan");
 //}
 
-let makanan = "telur asin"; 
+//let alat = "spidol"; 
 
-console.log("nama menu: " + makanan);
+//console.log("alat tulisnya: " + alat);
 
-if (makanan === "ayam katsu") {
-  console.log("makan");
-} else if (makanan === "telur asin") {
-  console.log("cicip");
+//if (alat === "bolpoint") {
+  //console.log("saya menulis");
+//} else if (alat === "pensil") {
+  //console.log("saya menulis");
+//} else if (alat === "crayon") {
+  //console.log("saya menggambar");
+//} else {
+  //console.log("saya tidak menulis atau menggambar");
+//} 
+
+//let nilai = 75;
+
+//if (nilai >= 90) {
+  //console.log("Dapat A!");
+//} else if (nilai >= 70) {
+  //console.log("Dapat B!");
+//} else {
+  //console.log("Dapat C, belajar lagi ya!");
+//}
+
+//let nilai = 81;
+//console.log("Nilai: " + nilai);
+
+//if (nilai >= 90) {
+    //console.log("Dapat A!");      
+//} else if (nilai >= 80) {
+    //console.log("Dapat B!");
+//} else {
+    //console.log("Dapat C");
+//}
+
+//let punyatiket = false;
+//let punyaundangan = true;
+
+//if (punyatiket || punyaundangan) {
+  //  console.log("tamu VIP");
+//} else if (punyatiket || punyaundangan) {
+    //console.log("tamu biasa");
+//} else {
+    //console.log("Tidak boleh masuk");
+//}
+
+//let angka = [10, 15, 20, 25, 30];
+//if (angka[3] % 2 === 0) {
+  //  console.log("genap");
+//} else {
+  //  console.log("ganjil");
+//}
+
+let nama = ["andi", "budi", "caca", "didi", "citra"];
+if (nama[4] === "citra") {
+    console.log("nama ditemukan");
 } else {
-  console.log("tidak makan");
-} 
-
-
+    console.log("nama tidak ditemukan");
+}
