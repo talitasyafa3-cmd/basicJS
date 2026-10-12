@@ -118,3 +118,4 @@ if (nama[4] === "citra") {
 } else {
     console.log("nama tidak ditemukan");
 }
+
