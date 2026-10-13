@@ -1,8 +1,3 @@
-for (let i = 5; i >= 0 ; i--) {
-  console.log(i);
-}
-
-let inventory = ["apel", "roti", "susu"]
-for (let item of inventory) {
-    console.log(item);
+for (let i = 0; i <= 4; i += 2) {
+    console.log(i);
 }
