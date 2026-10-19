@@ -1,5 +1,5 @@
-function halo () {
-    console.log("halo dunia");
-}
 
-halo();
+ function perkenalan(nama) {
+ console.log ("Halo" + nama);
+ }
+  perkenalan("Siska");
