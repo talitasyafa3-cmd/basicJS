@@ -19,4 +19,23 @@
 //
 //}
 
-let nilai = [60, 65, 70, 75];
+let nilai = [95, 90, 85, 80, 75, 70, 60, 65, 70, 75];
+for (let i = 0; i < nilai.length; i++) {
+  let status = "";
+  if (nilai[i] >= 75) {
+    status = "Lulus";
+  } else {
+    status = "Tidak Lulus";
+  }
+  let predikat = "";
+  if (nilai[i] >= 90) {
+    predikat = "Sangat bagus";
+  } else if (nilai[i] >= 80) {
+    predikat = "bagus";
+  } else if (nilai[i] >= 70) {
+    predikat = "Cukup";
+  } else {
+    predikat = "-";
+  }
+  console.log(`${i+1}. ${nilai[i]} = ${status}, ${predikat}`);
+}
