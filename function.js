@@ -1,5 +1,7 @@
 
- function perkenalan(nama) {
- console.log ("Halo" + nama);
+ function Belajar(nama) {
+ console.log ("Belajar" + nama);
  }
-  perkenalan("Siska");
+Belajar(" Html");
+Belajar (" JavaScript");
+Belajar (" CSS");
