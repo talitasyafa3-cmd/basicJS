@@ -43,8 +43,8 @@ const inventaris = [
     { kode: "PC005", nama: "Komputer 5", kondisi: "baik" }
 ];
 
-const hasilCari = inventaris.find((item) => { //cara kerja find adalah mencari elemen pertama dalam array yang memenuhi kondisi tertentu. Dalam contoh ini, kita mencari item dengan kode "PC003". Hasilnya adalah objek item yang ditemukan atau undefined jika tidak ada yang cocok.
-  return item.kode === "PC003"; // Cari item dengan kode "PC003"
+const hasilCari = inventaris.find((item) => { //cara kerja find adalah mencari elemen pertama dalam array yang memenuhi kondisi tertentu. Dalam contoh ini, kita mencari item dengan kode "PC002". Hasilnya adalah objek item yang ditemukan atau undefined jika tidak ada yang cocok.
+  return item.kode === "PC002"; // Cari item dengan kode "PC002"
 });
 
 if (hasilCari) { //cara kerja if adalah memeriksa kondisi tertentu. Dalam contoh ini, kita memeriksa apakah hasilCari tidak undefined (artinya item ditemukan). Jika kondisi terpenuhi, kita mencetak informasi item ke konsol.
