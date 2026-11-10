@@ -24,3 +24,11 @@ const namabaru = "Citra";
 const kelas = "X ICT"
 const nilaiCitra = 85;
 console.log(`Nama: ${namabaru}\n Kelas: ${kelas}\n Nilai: ${nilaiCitra}`);
+
+const siswa = {
+  nama: "Citra",
+  kelas: "X ICT",
+  nilai: 85
+};
+
+console.log(`Nama: ${siswa.nama}\nKelas: ${siswa.kelas}\nNilai: ${siswa.nilai}`);
